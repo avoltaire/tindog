@@ -1,0 +1,196 @@
+/* ----------------------------Body Styling --------------------------------------------*/
+body{
+	font-family: 'Montserrat-black',sans-serif;
+	}
+/* used to remove any padding or margin while viewing on smaller screens */
+body, html{ 
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+	}
+
+
+/*---------------- Header, h1,h2,h3,h4,and p styling ----------------------------------*/
+h1 {
+	 font-size: 3rem; 
+	 line-height: 1.5;
+	 margin-top:5%;
+	 font-weight:700;
+	 color:white;
+	 }
+h4,p{
+	font-family: 'ubuntu', sans-serif;
+	}
+h2{
+	font-family:"Montserrat-bold",sans-serif;
+	font-weight: bold;
+	font-size:2.1rem;
+	}
+h3{
+	font-family: 'Montserrat-bold', sans-serif;
+	}
+#title{
+	background-color:#7851a9;
+	margin-bottom:2%;
+	}
+.container-fluid{
+	padding-left:20%;
+	 color:white;
+	 font-size:1rem;
+	 }
+
+
+/*----------------- navbar styling----------------------------------------------------------------- */
+.navbar-brand{
+	padding-left:18%;
+	font-family:ubuntu;
+	font-size:2rem;
+	font-weight: bold;
+	}
+.nav-item{
+	padding:0 0 10px;
+	}
+.nav-link{
+	font-size:1.2rem;
+	font-family: 'Montserrat-Light', sans-serif;
+	}
+.title-buttons{
+	margin:5% 3% 5% 0%;
+	}
+.title-image{
+	transform: rotate(10deg);
+	width:47%;
+	margin-top:0%;
+	padding:0% 0 4% 6%;
+	}
+.navbar{
+	padding-bottom:2%;
+	}
+
+
+/*------------------------ features styling----------------------------------------------------------- */
+#features{
+	padding:5% 7%;
+	}
+.fa-3x{
+	color:#7851a9;
+	}
+.fa-3x:hover{
+	color:darkred;
+	}
+.center{
+	text-align:center;
+	width:100%;
+	}
+
+
+/*------------------------- Testemonials Styling -----------------------------------------------------*/
+#testimonials{
+	background-color:rgb(169, 108, 243); 
+	text-align:center;
+	color:white;
+	line-height: 1.2;
+}
+.testimonial-image{
+	border-radius:50%;
+	margin:2%;
+	width:12%;
+	}
+.carousel-item{
+	padding: 5% 15%;
+	}
+
+
+/*----------------------------Press styling------------------------------------------------------------- */
+#press{
+	background-color:white;
+	margin:2% 7%;
+	text-align: center;
+	 }
+.press-logo{
+	width:12%;
+	margin:2%;
+	}
+
+
+/*------------------------------- pricing styling-------------------------------------------------------- */
+#pricing{
+	background-color:rgb(169, 108, 243);
+	padding:0 7% 6% 7%;
+	text-align:center;
+	 }
+.pricing-h2,.cta-title{
+	color:white;
+	text-align:center;
+	padding-top:3%;
+	}
+.pricing-p{
+	color:white;
+	text-align:center;
+	padding-bottom:1%;
+	}
+.pricing-card{
+	padding:1% 2% 0% 2%;
+	}
+
+
+/*-------------------------------- Media Query-Responsive Design----------------------------------- */
+
+@media(max-width:1028px){
+	#title{
+		text-align:center;
+		padding-right:15%;
+		}
+	h1{
+		font-size:2rem;
+	}
+	h2{
+		font-size:1rem;
+		}
+	.title-image{
+		transform: rotate(0deg);
+		 width:60%;
+		 } 
+	spam{font-size:1rem;
+	}
+}
+
+
+/*------------------------- Contact styling--------------------------------------- */
+#contact{
+	text-align: center;
+	font-size:1.5rem;
+	font-family: 'Montserrat-bold', sans-serif;
+	padding:0px;
+	margin:0px;
+	}
+.fa-question-circle {
+	color:#7851a9;
+	}
+
+
+/*-------------------------- Call to action----------------------------------------*/
+#cta{
+	background-color:rgb(169, 108, 243);
+	text-align: center;
+	}
+.cta-buttons{
+	margin:2% 2% 2%;
+	}
+
+
+/*----------------------- footer styling----------------------------------------- */
+#footer{
+	background-color:#34314f;
+	text-align:center;padding:2%;
+	color:white;
+	}
+.social-icons{
+	color:#7851a9;
+	padding:1%;}
+.social-icons:hover{
+	color:darkred;
+	}
+
